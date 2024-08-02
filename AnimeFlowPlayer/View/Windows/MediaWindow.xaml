@@ -1,0 +1,116 @@
+﻿<Window x:Class="AnimeFlowPlayer.View.Windows.MediaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AnimeFlowPlayer.View.Windows"
+        mc:Ignorable="d"
+        Title="AnimeFlowPlayer" Height="730" Width="1270" 
+        WindowStartupLocation="CenterOwner" 
+        MinHeight="600" MinWidth="1030"
+        Loaded="Window_Loaded" >
+
+    <Window.Resources>
+        <ControlTemplate x:Key="NoMouseOverButtonTemplate" TargetType="Button">
+            <Border Background="{TemplateBinding Background}"  
+                BorderBrush="{TemplateBinding BorderBrush}"  
+                BorderThickness="{TemplateBinding BorderThickness}">
+                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"  
+                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Background" Value="{x:Static SystemColors.ControlLightBrush}" />
+                    <Setter Property="Foreground" Value="{x:Static SystemColors.GrayTextBrush}" />
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+    
+    <Grid Background="#FF363636">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Horizontal"  
+                VerticalAlignment="Center" Grid.Column="0">
+            <Button x:Name="backButton" Height="30"
+                Width="30" Margin="10,0,5,0" Click="backButton_Click" BorderBrush="{x:Null}" 
+                Template="{StaticResource NoMouseOverButtonTemplate}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Assets/Icons/icons8-стрелка-влево-в-круге-2-50.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+
+        </StackPanel>
+
+        <Label Content="AnimeFlowPlayer" FontSize="20" 
+               FontFamily="Comic Sans MS" Foreground="Aqua" 
+               FontWeight="Bold" HorizontalAlignment="Center" Grid.Column="0" Margin="54,0,0,0"/>
+        <Border  BorderBrush="AliceBlue" BorderThickness="3" CornerRadius="20" Grid.Row="1" Margin="5">
+            <StackPanel Grid.Row="1" Margin="5">
+                <MediaElement x:Name="mediaElement" HorizontalAlignment="Stretch" 
+              Height="550" VerticalAlignment="Stretch" 
+              Width="NaN" LoadedBehavior="Manual" 
+              UnloadedBehavior="Stop" Stretch="UniformToFill" 
+              MediaOpened="mediaElement_MediaOpened" />
+                <Slider x:Name="slider2" Height="20" VerticalAlignment="Bottom" 
+                      ValueChanged="slider2_ValueChanged" />
+                <StackPanel x:Name="controlPanel" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                    <Button x:Name="btnPlay" Width="75" Height="30" Click="btnPlay_Click" Margin="0,0,10,0" BorderBrush="{x:Null}" 
+                        Template="{StaticResource NoMouseOverButtonTemplate}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Icons/iconPlay.png" Stretch="Uniform"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnPause" Width="75" Height="30" Click="btnPause_Click" Margin="0,0,10,0" BorderBrush="{x:Null}" 
+                        Template="{StaticResource NoMouseOverButtonTemplate}">
+                        <Button.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Icons/icons8-пауза-50.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnStop" Width="75" Height="30" Click="btnStop_Click" BorderBrush="{x:Null}" 
+                        Template="{StaticResource NoMouseOverButtonTemplate}">
+                        <Button.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="/Assets/Icons/icons8-стоп-в-круге-50.png"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="fullscreenButton" Width="75" Height="30" Margin="5,0,0,0" 
+                        Click="fullscreenButton_Click" BorderBrush="{x:Null}" 
+                        Template="{StaticResource NoMouseOverButtonTemplate}">
+                        <Button.Background>
+                            <ImageBrush ImageSource="/Assets/Icons/icons8-на-всю-ширину-50.png" Stretch="Uniform"/>
+                        </Button.Background>
+                    </Button>
+                    <Slider x:Name="slider1" Height="20" VerticalAlignment="top" HorizontalAlignment="Left" 
+                        Width="100" Minimum="0" Maximum="1" 
+                        Value="0.5" ValueChanged="slider1_ValueChanged"/>
+                    <TextBlock x:Name="time" Text="00:00" 
+                           VerticalAlignment="Top" Foreground="red"
+                            Margin="10,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+
+        <ListView ItemsSource="{Binding series}" Grid.Row="1" 
+                  Grid.Column="1" Background="Transparent" 
+                  Margin="1" x:Name="seriesCatalog"
+                   SelectionChanged="seriesCatalog_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Vertical">
+                        <Image Source="{Binding Image}" Stretch="fill" Height="90" VerticalAlignment="Top"/>
+                        <TextBlock Text="{Binding Title}" HorizontalAlignment="Center" 
+                           TextAlignment="Justify" TextWrapping="Wrap" FontFamily="Comic Sans MS"
+                           FontSize="17" FontWeight="Bold" Foreground="Wheat"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </Grid>
+</Window>

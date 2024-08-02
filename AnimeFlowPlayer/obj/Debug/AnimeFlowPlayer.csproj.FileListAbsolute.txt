@@ -1,0 +1,17 @@
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\bin\Debug\AnimeFlowPlayer.exe.config
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\bin\Debug\AnimeFlowPlayer.exe
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\bin\Debug\AnimeFlowPlayer.pdb
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.csproj.AssemblyReference.cache
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\View\Windows\CatalogWindow.g.cs
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\App.g.cs
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer_MarkupCompile.cache
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer_MarkupCompile.lref
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\View\Windows\CatalogWindow.baml
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.g.resources
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.Properties.Resources.resources
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.csproj.GenerateResource.cache
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.csproj.CoreCompileInputs.cache
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.exe
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\AnimeFlowPlayer.pdb
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\View\Windows\MediaWindow.g.cs
+D:\Ам Ням\AnimeFlowPlayer\AnimeFlowPlayer\obj\Debug\View\Windows\MediaWindow.baml

@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\animeflowplayer\\view\\windows\\mediawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|solutionrelative:animeflowplayer\\view\\windows\\mediawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|d:\\\u0430\u043C \u043D\u044F\u043C\\animeflowplayer\\animeflowplayer\\view\\windows\\mediawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|solutionrelative:animeflowplayer\\view\\windows\\mediawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\animeflowplayer\\viewmodel\\mediawindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|solutionrelative:animeflowplayer\\viewmodel\\mediawindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\animeflowplayer\\viewmodel\\catalogwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A66B2D-9728-4C45-A336-960D4A66C138}|AnimeFlowPlayer\\AnimeFlowPlayer.csproj|solutionrelative:animeflowplayer\\viewmodel\\catalogwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MediaWindow.xaml",
+              "DocumentMoniker": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml",
+              "RelativeDocumentMoniker": "AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml",
+              "ToolTip": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml",
+              "RelativeToolTip": "AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-01T12:47:38.294Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MediaWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml.cs",
+              "ToolTip": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml.cs",
+              "RelativeToolTip": "AnimeFlowPlayer\\View\\Windows\\MediaWindow.xaml.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAiwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:26:57.031Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MediaWindowViewModel.cs",
+              "DocumentMoniker": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\ViewModel\\MediaWindowViewModel.cs",
+              "RelativeDocumentMoniker": "AnimeFlowPlayer\\ViewModel\\MediaWindowViewModel.cs",
+              "ToolTip": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\ViewModel\\MediaWindowViewModel.cs",
+              "RelativeToolTip": "AnimeFlowPlayer\\ViewModel\\MediaWindowViewModel.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwD4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:53:55.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CatalogWindowViewModel.cs",
+              "DocumentMoniker": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\ViewModel\\CatalogWindowViewModel.cs",
+              "RelativeDocumentMoniker": "AnimeFlowPlayer\\ViewModel\\CatalogWindowViewModel.cs",
+              "ToolTip": "D:\\\u0410\u043C \u041D\u044F\u043C\\AnimeFlowPlayer\\AnimeFlowPlayer\\ViewModel\\CatalogWindowViewModel.cs",
+              "RelativeToolTip": "AnimeFlowPlayer\\ViewModel\\CatalogWindowViewModel.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwD0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:17:32.288Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
